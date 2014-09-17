@@ -48,12 +48,12 @@ public class MainActivity extends ListActivity {
 			// TODO Auto-generated method stub
 
 			try {
-				doc = Jsoup.connect(Constans.NetAddress).timeout(5000).post();
+				doc = Jsoup.connect(Constans.NetAddress).timeout(5000).get();
 				
 				Document content = Jsoup.parse(doc.toString());
 				//获取页面中的ID为siteNav的div
-				//Elements divs = content.select("#siteNav");
-				Elements divs = content.select("#new_nav_ul");
+				Elements divs = content.select("#siteNav");
+				//Elements divs = content.select("#new_nav_ul");
 				//解析divs标记
 				Document divcontions = Jsoup.parse(divs.toString());
 				//获取divs中的所有li标记
