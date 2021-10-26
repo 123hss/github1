@@ -1,9 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
-	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
-	<classpathentry kind="output" path="bin/classes"/>
-</classpath>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title></title>
+<meta charset="utf-8" />
+
+</head>
+
+<body style="text-align:center;background-color: bisque；padding-top: 100px;">
+
+<h5>hello word</h5>
+
+<select id="ab">
+
+<option value="0">html</option>
+
+<option value="1">css</option>
+
+<option value="0">js</option>
+
+</select>
+
+<div id="div1" data-zg="中国人" data-zgr="我爱祖国">
+
+</div>
+
+</body>
+
+</html>
